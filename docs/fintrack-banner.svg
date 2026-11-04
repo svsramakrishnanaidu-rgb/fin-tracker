@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="t d">
+<title id="t">FinTrack — Your finances, in focus</title>
+<desc id="d">Dark premium FinTrack banner with violet and cyan accents, abstract finance chart illustration</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#090915"/><stop offset=".6" stop-color="#121329"/><stop offset="1" stop-color="#171535"/></linearGradient><linearGradient id="accent" x2="1"><stop stop-color="#8b5cf6"/><stop offset="1" stop-color="#4ed7e9"/></linearGradient><linearGradient id="glass" x2="1" y2="1"><stop stop-color="#8d75ff" stop-opacity=".21"/><stop offset="1" stop-color="#1de6dc" stop-opacity=".06"/></linearGradient></defs>
+<rect width="1200" height="360" rx="22" fill="url(#bg)"/>
+<g stroke="#8b77ca" stroke-opacity=".08" stroke-width="1"><path d="M0 72h1200M0 144h1200M0 216h1200M0 288h1200M100 0v360M260 0v360M420 0v360M580 0v360M740 0v360M900 0v360M1060 0v360"/></g>
+<circle cx="1038" cy="160" r="190" fill="#7c3aed" opacity=".07"/>
+<g transform="translate(822 62)"><rect width="280" height="240" rx="24" fill="url(#glass)" stroke="#b0a7eb" stroke-opacity=".25"/><text x="25" y="44" fill="#b3b4d0" font-family="Arial,sans-serif" font-size="17">Spending overview</text><text x="25" y="92" fill="#f9faff" font-family="Arial,sans-serif" font-size="35" font-weight="bold">₹ 24,680</text><path d="M28 194L67 171L107 179L151 132L187 142L231 107L252 117" stroke="url(#accent)" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M28 195L67 172L107 180L151 133L187 143L231 108L252 118V219H28Z" fill="#8b5cf6" opacity=".12"/><circle cx="231" cy="107" r="6" fill="#6ce2dd"/></g>
+<rect x="66" y="52" width="172" height="34" rx="17" fill="#251c48" stroke="#7c60c7" stroke-opacity=".7"/><text x="86" y="74" fill="#cfbaff" font-family="Arial,sans-serif" font-size="15" letter-spacing="1" font-weight="bold">FLUTTER APP</text>
+<text x="60" y="184" fill="#f7f8ff" font-family="Arial,sans-serif" font-size="85" font-weight="bold" letter-spacing="-3">Fin<tspan fill="#a48aff">Track</tspan></text>
+<text x="68" y="228" fill="#d4d1e6" font-family="Arial,sans-serif" font-size="25">Your finances, in focus.</text>
+<text x="69" y="279" fill="#aba6cb" font-family="Arial,sans-serif" font-size="18">Track expenses  /  Understand spending  /  Stay offline</text>
+</svg>
