@@ -11,6 +11,7 @@
   <img alt="Dart" src="https://img.shields.io/badge/Dart-3-0175C2?logo=dart&logoColor=white"/>
   <img alt="Provider" src="https://img.shields.io/badge/State-Provider-8B5CF6"/>
   <img alt="Local first" src="https://img.shields.io/badge/Storage-Local%20First-0F766E"/>
+  <a href="https://github.com/svsramakrishnanaidu-rgb/fin-tracker/actions/workflows/flutter-quality.yml"><img alt="Flutter quality checks" src="https://github.com/svsramakrishnanaidu-rgb/fin-tracker/actions/workflows/flutter-quality.yml/badge.svg"/></a>
 </p>
 
 [App preview](#app-preview) · [Features](#features) · [Run locally](#get-started) · [Architecture](#architecture) · [Privacy](#privacy-and-data)
@@ -100,7 +101,7 @@ flutter test
 flutter build web
 ```
 
-These are the available local commands, **not claims that a CI run has passed**.
+These commands are also checked automatically for pushes and pull requests by [Flutter quality checks](.github/workflows/flutter-quality.yml). The workflow badge above reflects the latest recorded run; a configured check is not proof of success until GitHub Actions completes.
 
 ## Architecture
 
