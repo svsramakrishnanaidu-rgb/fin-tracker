@@ -148,7 +148,7 @@ FinTrack works without an app account or a hosted database. Expense entries rema
 ## Next improvements
 
 - [ ] Publish a verified browser demo or distributable release
-- [ ] Add CI for `flutter analyze` and `flutter test`
+- [x] Configure CI for `flutter analyze` and `flutter test` ([workflow](.github/workflows/flutter-quality.yml); check [latest runs](https://github.com/svsramakrishnanaidu-rgb/fin-tracker/actions/workflows/flutter-quality.yml) for results)
 - [ ] Add optional export/import or backup before relying on long-term storage
 - [ ] Expand accessibility and platform tests
 
