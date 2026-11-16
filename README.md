@@ -101,7 +101,7 @@ flutter test
 flutter build web
 ```
 
-These commands are also checked automatically for pushes and pull requests by [Flutter quality checks](.github/workflows/flutter-quality.yml). The workflow badge above reflects the latest recorded run; a configured check is not proof of success until GitHub Actions completes.
+The [Flutter quality checks](.github/workflows/flutter-quality.yml) workflow runs analysis and tests on pushes and pull requests to `main`. The web build command is a separate local check; the current workflow does not run it. The workflow badge above reflects the latest recorded run; a configured check is not proof of success until GitHub Actions completes.
 
 ## Architecture
 
@@ -137,6 +137,27 @@ Dashboard + summary refresh
 ## Privacy and data
 
 FinTrack works without an app account or a hosted database. Expense entries remain in the local app storage used by the current installation. The storage implementation uses `shared_preferences`, which **is not encrypted storage**; don't treat it as protection against device compromise. Clearing app or browser storage, uninstalling, or changing devices may remove records. There is **no bank integration, automatic backup, or cross-device synchronization** in this version.
+
+## Reviewer walkthrough
+
+Use fictional expenses rather than real financial information.
+
+| Scenario | Expected behavior to check |
+| --- | --- |
+| Add an expense | Amount, category, date and optional note appear in the expense list |
+| Edit the entry | Dashboard and summary reflect the updated value |
+| Restart the application | Saved entries reload from the same installation |
+| Switch appearance | Interface remains readable in light and dark themes |
+| Start with no saved entries | Empty-state guidance is understandable |
+
+This is a suggested manual acceptance checklist, not a completed test report. Run the existing Flutter tests and inspect the workflow results for automated evidence.
+
+### Troubleshooting local setup
+
+- Run `flutter doctor` if Flutter reports missing SDK or platform tools.
+- Use `flutter devices` to see available targets and `flutter run -d chrome` for a local web preview.
+- Keep machine-specific Android SDK paths in ignored local configuration files.
+- If testing persistence, use a disposable browser profile or emulator rather than clearing real user data.
 
 ## Project links
 
