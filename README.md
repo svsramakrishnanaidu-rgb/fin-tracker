@@ -174,3 +174,7 @@ This is a suggested manual acceptance checklist, not a completed test report. Ru
 - [ ] Expand accessibility and platform tests
 
 <div align="center"><sub>Built with a focus on everyday usability, visual craft, and transparent local-first data handling.</sub></div>
+
+## Engineering guide
+
+[Explore working mechanisms, architecture diagrams and acceptance criteria](ENGINEERING_GUIDE.md). The guide distinguishes documented functionality from proposed improvements and tests that still require execution.
